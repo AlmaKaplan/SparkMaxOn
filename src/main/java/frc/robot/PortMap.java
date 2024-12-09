@@ -8,4 +8,8 @@ public class PortMap {
         public static final int MOTOR_3_ID = 3;
         public static final int MOTOR_4_ID = 4;
     }
+
+    public class controller {
+        public static final int CONTROLLER = 0;
+    }
 }
