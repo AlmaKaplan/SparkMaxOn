@@ -22,7 +22,7 @@ public class motor4On extends Command {
 
   @Override
   public void end(boolean interrupted) {
-    proto.setVoltageMotor4(PrototypeConstance.VOLT);
+    proto.setVoltageMotor4(0);
   }
 
   @Override
