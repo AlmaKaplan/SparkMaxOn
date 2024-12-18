@@ -15,8 +15,8 @@ public class protoType extends SubsystemBase {
     private static protoType protoTyp; 
     // I know abut the typing mistake
 
-    private final SparkMax motor4;
-    private final SparkMaxConfig motorConfig;
+    private SparkMax motor4;
+    private SparkMaxConfig motorConfig;
 
     private protoType() {
         motor4 = new SparkMax(PortMap.Proto.MOTOR_4_ID, MotorType.kBrushless);
